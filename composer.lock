@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "692e118436407ba481221ba05e57ffb2",
+    "content-hash": "8dbcff0acd2d53e9cf80acde86159880",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -351,25 +351,25 @@
         },
         {
             "name": "consolidation/annotated-command",
-            "version": "4.9.2",
+            "version": "4.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/consolidation/annotated-command.git",
-                "reference": "b5255dcbee1de95036185062a103dabc622224de"
+                "reference": "1e830ba908c9ffb1ba7ca056203531b27188812c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/consolidation/annotated-command/zipball/b5255dcbee1de95036185062a103dabc622224de",
-                "reference": "b5255dcbee1de95036185062a103dabc622224de",
+                "url": "https://api.github.com/repos/consolidation/annotated-command/zipball/1e830ba908c9ffb1ba7ca056203531b27188812c",
+                "reference": "1e830ba908c9ffb1ba7ca056203531b27188812c",
                 "shasum": ""
             },
             "require": {
                 "consolidation/output-formatters": "^4.3.1",
                 "php": ">=7.1.3",
                 "psr/log": "^1 || ^2 || ^3",
-                "symfony/console": "^4.4.8 || ^5 || ^6",
-                "symfony/event-dispatcher": "^4.4.8 || ^5 || ^6",
-                "symfony/finder": "^4.4.8 || ^5 || ^6"
+                "symfony/console": "^4.4.8 || ^5 || ^6 || ^7",
+                "symfony/event-dispatcher": "^4.4.8 || ^5 || ^6 || ^7",
+                "symfony/finder": "^4.4.8 || ^5 || ^6 || ^7"
             },
             "require-dev": {
                 "composer-runtime-api": "^2.0",
@@ -401,9 +401,9 @@
             "description": "Initialize Symfony Console commands from annotated command class methods.",
             "support": {
                 "issues": "https://github.com/consolidation/annotated-command/issues",
-                "source": "https://github.com/consolidation/annotated-command/tree/4.9.2"
+                "source": "https://github.com/consolidation/annotated-command/tree/4.10.0"
             },
-            "time": "2023-12-26T14:30:50+00:00"
+            "time": "2024-04-05T21:05:39+00:00"
         },
         {
             "name": "consolidation/config",
@@ -517,32 +517,32 @@
         },
         {
             "name": "consolidation/log",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/consolidation/log.git",
-                "reference": "caaad9d70dae54eb49002666f000e3c607066878"
+                "reference": "c27a3beb36137c141ccbce0d89f64befb243c015"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/consolidation/log/zipball/caaad9d70dae54eb49002666f000e3c607066878",
-                "reference": "caaad9d70dae54eb49002666f000e3c607066878",
+                "url": "https://api.github.com/repos/consolidation/log/zipball/c27a3beb36137c141ccbce0d89f64befb243c015",
+                "reference": "c27a3beb36137c141ccbce0d89f64befb243c015",
                 "shasum": ""
             },
             "require": {
                 "php": ">=8.0.0",
                 "psr/log": "^3",
-                "symfony/console": "^5 || ^6"
+                "symfony/console": "^5 || ^6 || ^7"
             },
             "require-dev": {
-                "phpunit/phpunit": ">=7.5.20",
+                "phpunit/phpunit": "^7.5.20 || ^8 || ^9",
                 "squizlabs/php_codesniffer": "^3",
                 "yoast/phpunit-polyfills": "^0.2.0"
             },
             "type": "library",
             "extra": {
-                "branch-alias": {
-                    "dev-main": "2.x-dev"
+                "platform": {
+                    "php": "8.2.17"
                 }
             },
             "autoload": {
@@ -563,9 +563,9 @@
             "description": "Improved Psr-3 / Psr\\Log logger based on Symfony Console components.",
             "support": {
                 "issues": "https://github.com/consolidation/log/issues",
-                "source": "https://github.com/consolidation/log/tree/3.0.0"
+                "source": "https://github.com/consolidation/log/tree/3.1.0"
             },
-            "time": "2022-04-05T16:53:32+00:00"
+            "time": "2024-04-04T23:50:25+00:00"
         },
         {
             "name": "consolidation/output-formatters",
@@ -751,23 +751,23 @@
         },
         {
             "name": "consolidation/site-alias",
-            "version": "4.0.1",
+            "version": "4.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/consolidation/site-alias.git",
-                "reference": "b0eeb8c8f3d54d072824ee31b5e00cb5181f91c5"
+                "reference": "1056ceb93f6aafe6f7600d7bbe1b62b8488abccf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/consolidation/site-alias/zipball/b0eeb8c8f3d54d072824ee31b5e00cb5181f91c5",
-                "reference": "b0eeb8c8f3d54d072824ee31b5e00cb5181f91c5",
+                "url": "https://api.github.com/repos/consolidation/site-alias/zipball/1056ceb93f6aafe6f7600d7bbe1b62b8488abccf",
+                "reference": "1056ceb93f6aafe6f7600d7bbe1b62b8488abccf",
                 "shasum": ""
             },
             "require": {
-                "consolidation/config": "^1.2.1 || ^2",
+                "consolidation/config": "^1.2.1 || ^2 || ^3",
                 "php": ">=7.4",
-                "symfony/filesystem": "^5.4 || ^6",
-                "symfony/finder": "^5 || ^6"
+                "symfony/filesystem": "^5.4 || ^6 || ^7",
+                "symfony/finder": "^5 || ^6 || ^7"
             },
             "require-dev": {
                 "php-coveralls/php-coveralls": "^2.4.2",
@@ -804,30 +804,30 @@
             "description": "Manage alias records for local and remote sites.",
             "support": {
                 "issues": "https://github.com/consolidation/site-alias/issues",
-                "source": "https://github.com/consolidation/site-alias/tree/4.0.1"
+                "source": "https://github.com/consolidation/site-alias/tree/4.1.0"
             },
-            "time": "2023-04-29T17:18:10+00:00"
+            "time": "2024-04-05T15:58:04+00:00"
         },
         {
             "name": "consolidation/site-process",
-            "version": "5.3.0",
+            "version": "5.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/consolidation/site-process.git",
-                "reference": "5e8eff50fd0015e7ca0b6ce4082cacef012f2f77"
+                "reference": "7ab3ffe4195a89b8dc334ea22e7881abe79ffd9a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/consolidation/site-process/zipball/5e8eff50fd0015e7ca0b6ce4082cacef012f2f77",
-                "reference": "5e8eff50fd0015e7ca0b6ce4082cacef012f2f77",
+                "url": "https://api.github.com/repos/consolidation/site-process/zipball/7ab3ffe4195a89b8dc334ea22e7881abe79ffd9a",
+                "reference": "7ab3ffe4195a89b8dc334ea22e7881abe79ffd9a",
                 "shasum": ""
             },
             "require": {
-                "consolidation/config": "^2",
+                "consolidation/config": "^2 || ^3",
                 "consolidation/site-alias": "^3 || ^4",
                 "php": ">=8.0.14",
-                "symfony/console": "^5.4 || ^6",
-                "symfony/process": "^6"
+                "symfony/console": "^5.4 || ^6 || ^7",
+                "symfony/process": "^6 || ^7"
             },
             "require-dev": {
                 "phpunit/phpunit": "^9",
@@ -861,9 +861,9 @@
             "description": "A thin wrapper around the Symfony Process Component that allows applications to use the Site Alias library to specify the target for a remote call.",
             "support": {
                 "issues": "https://github.com/consolidation/site-process/issues",
-                "source": "https://github.com/consolidation/site-process/tree/5.3.0"
+                "source": "https://github.com/consolidation/site-process/tree/5.4.0"
             },
-            "time": "2024-04-01T12:42:12+00:00"
+            "time": "2024-04-06T00:00:28+00:00"
         },
         {
             "name": "cweagans/composer-patches",
@@ -1470,50 +1470,6 @@
             "time": "2024-03-12T14:54:36+00:00"
         },
         {
-            "name": "drupal/choices_autocomplete",
-            "version": "1.3.8",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/choices_autocomplete.git",
-                "reference": "1.3.8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/choices_autocomplete-1.3.8.zip",
-                "reference": "1.3.8",
-                "shasum": "a6668b1fca937a95c55fe0c9d47ada2552e78251"
-            },
-            "require": {
-                "drupal/core": "^9 || ^10"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "drupal": {
-                    "version": "1.3.8",
-                    "datestamp": "1701885245",
-                    "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "robphillips",
-                    "homepage": "https://www.drupal.org/user/459772"
-                }
-            ],
-            "description": "Use Choices.js as autocomplete widget for entity reference fields.",
-            "homepage": "https://www.drupal.org/project/choices_autocomplete",
-            "support": {
-                "source": "https://git.drupalcode.org/project/choices_autocomplete"
-            }
-        },
-        {
             "name": "drupal/core",
             "version": "10.1.8",
             "source": {
@@ -2022,217 +1978,6 @@
             }
         },
         {
-            "name": "drupal/facets",
-            "version": "2.0.7",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/facets.git",
-                "reference": "2.0.7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/facets-2.0.7.zip",
-                "reference": "2.0.7",
-                "shasum": "a58ad0c4c3fc2750bf095232a54218ae906852e3"
-            },
-            "require": {
-                "drupal/core": "^9.3 || ^10.0"
-            },
-            "conflict": {
-                "drupal/search_api": "<1.14"
-            },
-            "require-dev": {
-                "drupal/jquery_ui_slider": "~2.0",
-                "drupal/jquery_ui_touch_punch": "~1.1",
-                "drupal/search_api": "^1.28||1.x-dev"
-            },
-            "suggest": {
-                "drupal/jquery_ui_slider": "Required for the 'Facets Range Widget' module to work",
-                "drupal/jquery_ui_touch_punch": "Required for the 'Facets Range Widget' module to work"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "drupal": {
-                    "version": "2.0.7",
-                    "datestamp": "1709900263",
-                    "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "See all contributors",
-                    "homepage": "https://www.drupal.org/node/2348769/committers"
-                },
-                {
-                    "name": "drunken monkey",
-                    "homepage": "https://www.drupal.org/user/205582"
-                },
-                {
-                    "name": "mkalkbrenner",
-                    "homepage": "https://www.drupal.org/user/124705"
-                },
-                {
-                    "name": "Nick_vh",
-                    "homepage": "https://www.drupal.org/user/122682"
-                },
-                {
-                    "name": "StryKaizer",
-                    "homepage": "https://www.drupal.org/user/462700"
-                }
-            ],
-            "description": "The Facet module allows site builders to easily create and manage faceted search interfaces.",
-            "homepage": "https://www.drupal.org/project/facets",
-            "support": {
-                "source": "git://git.drupal.org/project/facets.git",
-                "issues": "https://www.drupal.org/project/issues/facets",
-                "irc": "irc://irc.freenode.org/drupal-search-api"
-            }
-        },
-        {
-            "name": "drupal/multiple_select",
-            "version": "2.0.6",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/multiple_select.git",
-                "reference": "2.0.6"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/multiple_select-2.0.6.zip",
-                "reference": "2.0.6",
-                "shasum": "528034acfc14f8824d35d6728207c43893f76fec"
-            },
-            "require": {
-                "drupal/core": "^8 || ^9 || ^10"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "drupal": {
-                    "version": "2.0.6",
-                    "datestamp": "1695117931",
-                    "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "-nrzr-",
-                    "homepage": "https://www.drupal.org/user/3522063"
-                },
-                {
-                    "name": "dgaspara",
-                    "homepage": "https://www.drupal.org/user/3557179"
-                },
-                {
-                    "name": "joaomarques736",
-                    "homepage": "https://www.drupal.org/user/3557181"
-                },
-                {
-                    "name": "nsalves",
-                    "homepage": "https://www.drupal.org/user/3557178"
-                },
-                {
-                    "name": "pmaiacar",
-                    "homepage": "https://www.drupal.org/user/3575425"
-                },
-                {
-                    "name": "ricardotenreiro",
-                    "homepage": "https://www.drupal.org/user/213132"
-                },
-                {
-                    "name": "sara_asb",
-                    "homepage": "https://www.drupal.org/user/3673657"
-                },
-                {
-                    "name": "TiagoZ",
-                    "homepage": "https://www.drupal.org/user/3656517"
-                },
-                {
-                    "name": "tmiguelv",
-                    "homepage": "https://www.drupal.org/user/3612421"
-                }
-            ],
-            "description": "Provides 'select/unselect all' option for configured checkboxs fields as bulk select helper.",
-            "homepage": "https://www.drupal.org/project/multiple_select",
-            "support": {
-                "source": "https://git.drupalcode.org/project/multiple_select"
-            }
-        },
-        {
-            "name": "drupal/multiselect",
-            "version": "2.0.0-beta4",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/multiselect.git",
-                "reference": "2.0.0-beta4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/multiselect-2.0.0-beta4.zip",
-                "reference": "2.0.0-beta4",
-                "shasum": "52e862b732409e19a99be50b1c2ee6d585c7d35d"
-            },
-            "require": {
-                "drupal/core": "^9 || ^10 || ^11"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "drupal": {
-                    "version": "2.0.0-beta4",
-                    "datestamp": "1711477681",
-                    "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Beta releases are not covered by Drupal security advisories."
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Adam Bergstein",
-                    "homepage": "https://www.drupal.org/user/850856",
-                    "email": "nerdstein@gmail.com"
-                },
-                {
-                    "name": "attheshow",
-                    "homepage": "https://www.drupal.org/user/249768"
-                },
-                {
-                    "name": "mandclu",
-                    "homepage": "https://www.drupal.org/user/52136"
-                },
-                {
-                    "name": "mparker17",
-                    "homepage": "https://www.drupal.org/user/536298"
-                },
-                {
-                    "name": "nerdstein",
-                    "homepage": "https://www.drupal.org/user/1557710"
-                }
-            ],
-            "description": "D8 Port of multiselect",
-            "homepage": "https://www.drupal.org/project/multiselect",
-            "support": {
-                "source": "https://git.drupalcode.org/project/multiselect"
-            }
-        },
-        {
             "name": "drupal/select2",
             "version": "1.15.0",
             "source": {
@@ -2284,50 +2029,6 @@
             "homepage": "https://www.drupal.org/project/select2",
             "support": {
                 "source": "https://git.drupalcode.org/project/select2"
-            }
-        },
-        {
-            "name": "drupal/select2_infinite_scroll",
-            "version": "1.0.0-alpha2",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/select2_infinite_scroll.git",
-                "reference": "1.0.0-alpha2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/select2_infinite_scroll-1.0.0-alpha2.zip",
-                "reference": "1.0.0-alpha2",
-                "shasum": "7914c8894520a6e69e6a510d559e3af33f5ab354"
-            },
-            "require": {
-                "drupal/core": "^9.4 || ^10"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "drupal": {
-                    "version": "1.0.0-alpha2",
-                    "datestamp": "1681578692",
-                    "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Project has not opted into security advisory coverage!"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "RandalV",
-                    "homepage": "https://www.drupal.org/user/3612901"
-                }
-            ],
-            "description": "Provides a select2 element that enables the infinite scroll functionality through an ajax endpoint.",
-            "homepage": "https://www.drupal.org/project/select2_infinite_scroll",
-            "support": {
-                "source": "https://git.drupalcode.org/project/select2_infinite_scroll"
             }
         },
         {
@@ -6879,10 +6580,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "drupal/multiselect": 10,
-        "drupal/select2_infinite_scroll": 15
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
