@@ -1,0 +1,7 @@
+custom_field_type.get_tags:
+  path: '/get-tags'
+  defaults:
+    _controller: '\Drupal\custom_field_type\Controller\MultiSelectController::getTags'
+  requirements:
+    _permission: 'access content'
+    

@@ -1,0 +1,11 @@
+name: 'Custom Multiselect Field | Multitags'
+type: module
+description: 'Adds a custom multiselect field type.'
+core_version_requirement: ^10 || ^11
+package: 'Custom'
+version: '1.0'
+libraries:
+  - custom_field_type/custom_field_widget
+dependencies:
+  - select2
+

@@ -1,0 +1,22 @@
+custom_field_widget:
+  version: 1.x
+  js:
+    js/select2_init.js: {}
+  dependencies:
+    - core/drupal
+    - core/drupalSettings
+    - core/jquery
+    - core/drupal.ajax
+    - core/once
+
+select2.min:
+  js:
+    /libraries/select2/dist/js/select2.min.js: { minified: true }
+  css:
+    component:
+      /libraries/select2/dist/css/select2.min.css: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/once
+

@@ -1,0 +1,17 @@
+{
+    "_hash": "060b6044deb14633576f11951c89c56e1518e69f578d4ebefb989bde6bc4d21e",
+    "patches": {
+        "drupal/select2": [
+            {
+                "package": "drupal/select2",
+                "description": "Claro improvements",
+                "url": "https://www.drupal.org/files/issues/2023-10-11/select2-claro-improvments-3184534-12.patch",
+                "sha256": "236e4ecb5eaa6675d77f2db56e80aa666c767f73f6fb23ff50af1c24e3930923",
+                "depth": 1,
+                "extra": {
+                    "provenance": "root"
+                }
+            }
+        ]
+    }
+}

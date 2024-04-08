@@ -1,0 +1,28 @@
+<?php
+
+/**
+ * Implements hook_element_info_alter().
+ */
+function сustom_field_type_element_info_alter(array &$info) {
+    if (isset($info['table'])) {
+      $info['table']['#attached']['library'][] = 'custom_field_type/custom_field_widget';
+    }
+  }
+
+/**
+ * Implements hook_form_alter().
+ */
+function custom_field_type_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
+    /* @var Drupal\Core\Entity\FieldableEntityInterface $entity */
+    $formObject = $form_state->getFormObject();
+    if ($formObject instanceof \Drupal\Core\Entity\EntityFormInterface) {
+      $entity = $formObject->getEntity();
+      if (
+        $entity->getEntityTypeId() === 'node'
+        && in_array($entity->bundle(), ['organisation', 'location', 'event', 'article'])
+      ) {
+        $form['#attached']['library'][] = 'custom_field_type/custom_field_type.select2';
+      }
+    }
+  }
+
